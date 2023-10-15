@@ -2,7 +2,7 @@
 
 ![argo_works/sitara](imgur.com image replace me!)
 
-*A short description of the keyboard/project*
+*A 40% with encoder, display, haptics and audio support*
 
 * Keyboard Maintainer: [Jason Devadoss](https://github.com/jasonj2232)
 * Hardware Supported: *The PCBs, controllers supported*
