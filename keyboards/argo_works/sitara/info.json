@@ -13,6 +13,7 @@
         "vid": "0x4157"
     },
     "features": {
+        "bootmagic": true,
         "command": false,
         "console": false,
         "extrakey": true,
