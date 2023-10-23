@@ -33,7 +33,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [UL] = LAYOUT_all(
         KC_TRNS,   KC_1,      KC_2,      KC_3,      KC_4,      KC_5,      KC_6,      KC_7,      KC_8,      KC_9,      KC_0,      KC_DEL,    KC_MPLY,
         KC_TRNS,   KC_INS,    KC_HOME,   KC_PGUP,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_SLSH,   KC_LBRC,   KC_RBRC,
-        KC_TRNS,   KC_TRNS,   KC_END,    KC_PGDN,   KC_TRNS,   KC_TRNS,   KC_NUHS,   KC_MINS,   KC_EQL,    KC_TRNS,   KC_UP,     KC_TRNS
+        KC_TRNS,   KC_TRNS,   KC_END,    KC_PGDN,   KC_TRNS,   KC_TRNS,   KC_NUHS,   KC_MINS,   KC_EQL,    KC_TRNS,   KC_UP,     KC_TRNS,
         KC_TRNS,   KC_TRNS,   KC_TRNS,              KC_TRNS,   KC_TRNS,   KC_TRNS,                         KC_LEFT,   KC_DOWN,   KC_RIGHT
     ),
     [TL] = LAYOUT_all(
@@ -44,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [FL] = LAYOUT_all(
         KC_TRNS,   QK_RBT,    QK_BOOT,   QK_MAKE,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,
-        KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,
+        KC_TRNS,   AU_TOGG,   CK_TOGG,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,
         KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,
         KC_TRNS,   KC_TRNS,   KC_TRNS,              KC_TRNS,   KC_TRNS,   KC_TRNS,                         KC_TRNS,   KC_TRNS,   KC_TRNS
     )
@@ -54,5 +54,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
         [BL] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
         [UL] = { ENCODER_CCW_CW(KC_BRID, KC_BRIU) },
+        [TL] = { ENCODER_CCW_CW(KC_MPRV, KC_MNXT) },
+        [FL] = { ENCODER_CCW_CW(KC_WBAK, KC_WFWD) },
     };
 #endif
