@@ -11,6 +11,15 @@
 
 #define SPEAKER_SHUTDOWN F1
 
+// Haptic Features
+
+#define DRV2605L_FB_ERM_LRA 0
+#define DRV2605L_FB_BRAKEFACTOR 3 /* For 1x:0, 2x:1, 3x:2, 4x:3, 6x:4, 8x:5, 16x:6, Disable Braking:7 */
+#define DRV2605L_FB_LOOPGAIN 1 /* For  Low:0, Medium:1, High:2, Very High:3 */
+
+#define DRV2605L_RATED_VOLTAGE 3
+#define DRV2605L_V_PEAK 5
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
