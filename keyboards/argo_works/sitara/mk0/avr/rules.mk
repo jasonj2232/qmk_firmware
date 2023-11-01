@@ -1,2 +1,4 @@
 NRKO_ENABLE = yes
 ENCODER_MAP_ENABLE = yes
+AUDIO_DRIVER = pwm_hardware
+LTO_ENABLE = yes

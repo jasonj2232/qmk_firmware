@@ -3,6 +3,14 @@
 
 #pragma once
 
+// Audio Features
+
+#define AUDIO_PIN B7
+#define AUDIO_INIT_DELAY
+#define AUDIO_CLICKY
+
+#define SPEAKER_SHUTDOWN F1
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
