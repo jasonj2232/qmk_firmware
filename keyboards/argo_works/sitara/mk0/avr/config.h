@@ -25,6 +25,11 @@
 #define RGBLIGHT_LIMIT_VAL 60
 #define RGBLIGHT_LED_MAP { 1, 2, 3, 5, 7, 9, 11, 16, 17, 19, 21, 23, 24, 25, 4, 6, 8, 12, 15, 18, 20, 22, 14, 13, 10 }
 
+// OLED Configuration
+
+#define OLED_TIMEOUT 90000
+#define OLED_FADE_OUT
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
