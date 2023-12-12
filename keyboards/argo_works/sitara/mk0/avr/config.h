@@ -20,6 +20,13 @@
 #define DRV2605L_RATED_VOLTAGE 3
 #define DRV2605L_V_PEAK 4
 
+/* Uncomment to disable haptics for specific classes of keys */
+
+#define NO_HAPTIC_MOD /* Disables Haptics for Modifier Keys*/
+// #define NO_HAPTIC_ALPHA /* Disables Haptics for Alpha Keys*/
+// #define NO_HAPTIC_PUNCTUATION /* Disables Haptics for Punctuation Keys*/
+// #define NO_HAPTIC_NAV /* Disables Haptics for Navigation Keys*/
+
 // RGB Configuration
 
 #define RGBLIGHT_LIMIT_VAL 60
